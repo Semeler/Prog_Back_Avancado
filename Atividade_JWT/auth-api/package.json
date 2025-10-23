@@ -1,0 +1,34 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "A REST API for authentication using JWT and Refresh Tokens.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "dotenv": "^10.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "@types/express": "^4.17.13"
+  },
+  "keywords": [
+    "authentication",
+    "jwt",
+    "api",
+    "rest"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
